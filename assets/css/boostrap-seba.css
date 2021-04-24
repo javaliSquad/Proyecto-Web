@@ -1,0 +1,12 @@
+.carousel-caption-seba {
+    position: absolute;
+    right: 65%;
+    top: 20px;
+    left: 2%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
