@@ -28,6 +28,29 @@ body{
     font-size: 30px;
 }
 
+.a-nav{
+    color: bisque;
+
+}
+
+.nav-btn{
+    color: bisque;
+    border-color: bisque;
+    font-size: 20px;
+}
+
+a:hover{
+    color: aquamarine;
+     }
+
+a:visited{
+    color: bisque;
+
+}
+
+
+
+
 
 
 
