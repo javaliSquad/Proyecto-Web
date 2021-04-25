@@ -1,0 +1,25 @@
+.carousel-caption-seba {
+    position: absolute;
+    right: 60%;
+    top: 20px;
+    left: 2%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .carousel-item-seba {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: -webkit-transform 1.5s ease-in-out;
+    transition: transform 1.5s ease-in-out;
+    transition: transform 1.5s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  }
