@@ -41,23 +41,55 @@ body{
     
 }
 
-a:hover{
+/* FIN NAVBAR */
+
+/*EFECTOS*/
+
+li:hover{
     color:aqua ;
      }
 
 a:visited{
     color: bisque;
 
-}
 
+}
+/*--FIN EFECTOS--*/
+
+/*FOOTER*/
 footer{
 
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    font-family: 'Dancing Script', cursive;
 
 }
 
+.myul{
+
+    font-size: 25px;
+}
 
 
+.f-txt{
+
+    color: bisque;
+    font-family:'Dancing Script', cursive ;
+}
+
+/*iconos*/
+.micon{ 
+
+    color: bisque;
+    font-size: 35px;
+
+}
+
+.cprg{
+    
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*FIN FOOTER*/
 
 
 
