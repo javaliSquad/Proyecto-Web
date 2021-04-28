@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es-cl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Quicksand:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png"
+        href="assets/images/Logotipo e Isotipo Yogalquimia Illimay/fondo TRANSPARENTE.png" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- CSS Propios -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/fontawesome-free-5.15.3-web/css/all.css">
+
+    <title>Yoga Alquimia</title>
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <header class="mynav">
+        <nav class="navbar navbar-expand-lg ">
+            <a class="navbar-brand" href="home.html">
+                <img class="logo" src="assets/images/fondo-blanco-borde-blanco.png" alt="BRAND" height="80px" width="80px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-spa"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link a-nav pr-5" href="home.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a-nav pr-5" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a-nav pr-5" href="horario.html">Horarios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a-nav pr-5" href="gallery.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a-nav pr-5" href="acerca-de.html">Acerca de</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-none d-lg-block d-xl-block">
+                <ul class="navbar-nav mr-auto ">
+                    <li class="nav-item col-6 col-md-auto ">
+                        <a href="#" class="nav-link a-nav">
+                            <i class="fas fa-user"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item col-6 col-md-auto">
+                        <a href="#" class="nav-link a-nav">
+                            <i class="fas fa-user-plus"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--FIN NAVBAR-->
+
+    <!--FORMULARIO-->
+    <main class="formu container mt-5 mb-4">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title"> Comienza tu camino en Yogalquimia</h3>
+                        <h3 class="card-title"> Contáctanos!</h3>
+                    </div>
+                </div>
+
+
+
+                <div class="card-body">
+
+
+                    <!--FORMULARIO-->
+                    <form action="#" method="GET" enctype="text/plain">
+                        <!--Agrupar componentes...FORM GROUP-->
+
+                        <div class="form-group">
+                            <label for="nombre" class="font-weight-bold">Nombre:</label>
+                            <!--font-weight-bold = negrita-->
+                            <input class="form-control" type="text" name="nombre" id="nombre"
+                                placeholder="Ingresa tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="apellido" class="font-weight-bold">Apellido:</label>
+                            <!--font-weight-bold = negrita-->
+                            <input class="form-control" type="text" name="apellido" id="apellido"
+                                placeholder="Ingresa tu apellido" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="fecha_nacimiento" class="font-weight-bold">Fecha de nacimiento:</label>
+                            <!--font-weight-bold = negrita-->
+                            <input class="form-control" type="date" name="fecha_nacimiento" id="fecha_nacimiento"
+                                required>
+                        </div>
+                        <!--Agrupar componentes...FORM GROUP ROW-->
+                        <div class="form-group row">
+                            <label for="email" class="col-sm-4 col-form-label font-weight-bold">Email:</label>
+                            <div class="col-sm-8">
+                                <input class="form-control" type="email" name="email" id="email"
+                                    placeholder="Ingresa tu correo electrónico" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="fono" class="col-sm-4 col-form-label font-weight-bold">Teléfono:</label>
+                            <div class="col-sm-8">
+                                <input class="form-control" type="tel" name="fono" id="fono"
+                                    placeholder="Ej:+56 9 1234 5678" required>
+                            </div>
+                        </div>
+
+                        <!--RADIO BUTTOM-->
+
+
+                        <div class="form-group">
+                            <label for="genero" class="font-weight-bold">Seleccione su género:</label>
+                            <div class="form-check">
+                                <!--aqui viene la magia-->
+                                <div class="form-check-label">
+                                    <label for="femenino" class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="genero" id="femenino"
+                                            value="femenino">Femenino
+                                    </label>
+                                </div>
+                                <div class="form-check-label">
+                                    <label for="masculino" class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="genero" id="masculino"
+                                            value="masculino">Masculino
+                                    </label>
+                                </div>
+                                <div class="form-check-label">
+                                    <label for="otro_genero" class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="genero" id="otro_genero"
+                                            value="otro_genero">Otro
+                                    </label>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--CHECKBOX-->
+                        <div class="form-group">
+                            <label for="conocer" class="font-weight-bold">Cómo llegaste a esta página?</label>
+                            <div class="form-check">
+                                <div class="form-check-label">
+                                    <label for="redes" class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" name="redes" id="redes"
+                                            value="redes">Redes Sociales
+                                    </label>
+                                </div>
+                                <div class="form-check-label">
+                                    <label for="buscador" class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" name="buscador" id="buscador"
+                                            value="buscador">Buscador Web
+                                    </label>
+                                </div>
+                                <div class="form-check-label">
+                                    <label for="amigos" class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" name="amigos" id="amigos"
+                                            value="amigos">Amig@s
+                                    </label>
+                                </div>
+                                <div class="form-check-label">
+                                    <label for="otros" class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" name="otros" id="otros"
+                                            value="otros">Otros
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cursos" class="font-weight-bold">Qué terapias te interesan?</label>
+                            <div class="form-check">
+                                <div class="form-check-label">
+                                    <label for="hatha" class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" name="hatha" id="hatha"
+                                            value="hatha">Hatha Yoga Meditativo
+                                    </label>
+                                </div>
+                                <div class="form-check-label">
+                                    <label for="prenatal" class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" name="prenatal" id="prenatal"
+                                            value="prenatal">Yoga Prenatal
+                                    </label>
+                                </div>
+                                <div class="form-check-label">
+                                    <label for="ciclo" class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" name="ciclo" id="ciclo"
+                                            value="ciclo">Yoga para el Ciclo Menstrual
+                                    </label>
+                                </div>
+                                <div class="form-check-label">
+                                    <label for="champi" class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" name="champi" id="champi"
+                                            value="champi">Masaje Champi
+                                    </label>
+                                </div>
+                                <div class="form-check-label">
+                                    <label for="flores" class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" name="flores" id="flores"
+                                            value="flores">Flores de Bach
+                                    </label>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!--Select o Combobox-->
+                        <div class="form-group">
+                            <label for="nivel" class="font-weight-bold">Tienes conocimientos acerca de las opciones
+                                seleccionadas?</label>
+                            <select name="nivel" id="nivel" class="form-control">
+                                <option value="Básico">Básico</option>
+                                <option value="Intermedio">Intermedio</option>
+                                <option value="Avanzado">Avanzado</option>
+                                <option value="No_tiene">Ninguno</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="enfermedad" class="font-weight-bold">Indícanos si tienes una enfermedad u otras
+                                dolencias</label>
+                            <!--font-weight-bold = negrita-->
+                            <input class="form-control" type="text" name="enfermedad" id="enfermedad">
+                        </div>
+
+
+                        <!--Textarea-->
+                        <div class="form-group">
+                            <label for="comentarios" class="font-weight-bold">Escribe tu consulta:</label>
+                            <textarea class="form-control" name="comentarios" id="comentarios" cols="30"
+                                rows="5"></textarea>
+                        </div>
+
+
+
+                        <!-- Toogle button o Switch-->
+                        <div class="form-group">
+                            <div class="custom-control custom-switch">
+                                <input class="custom-control-input" type="checkbox" name="aceptar" id="aceptar">
+                                <label for="aceptar" class="custom-control-label">Quiero recibir notificaciones en mi
+                                    correo</label>
+                            </div>
+                        </div>
+
+                        <!--Botones-->
+                        <div class="form-group">
+                            <input class="btn btn-secondary" type="submit" value="Enviar" id="enviar">
+                        </div>
+                    </form>
+                    <!-- FIN FORMULARIO -->
+                </div>
+
+
+            </div>
+            <div class="col-md-6">
+                <img src="assets/images/Logotipo e Isotipo Yogalquimia Illimay/fondo TRANSPARENTE.png" class="img-fluid" alt="logo" width="100%" height="100%">
+
+            </div>
+        </div>
+
+    </main>
+
+    <!--FIN CONTENIDO-->
+
+    <!--INICIO FOOTER-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class=" col-sm-12 col-md-3 text-center mt-5">
+                    <img src="assets/images/Logotipo e Isotipo Yogalquimia Illimay/Tipografia multicolor TRANSPARENTE.png"
+                        alt="Tipografia" height="150" width="150">
+                </div>
+                <div class="col-sm-12 col-md-3 text-center ">
+                    <a href="home.html"><img src="assets/images/fondo-blanco-borde-blanco.png"alt="logo yogalquimia" height="80px" width="80px">
+                    </a>
+                    <ul class="nav flex-column myul">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="acerca-de.html">Acerca de </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="horario.html">Horarios </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="gallery.html">Galería</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-3 text-center ">
+                    <h4 class="f-txt pb-4  ">✺ Sigueme en mis redes ✺</h4>
+                    <ul class="f-list">
+                        <li class="nav-item"><a href="#"></a><i class="fab fa-instagram micon"></i></li>
+                        <li class="nav-item"><a href="#"></a><i class="fab fa-youtube micon"></i></li>
+                        <li class="nav-item"><a href="#"></a><i class="fab fa-whatsapp micon"></i></li>
+                        <li class="nav-item"><a href="#"></a><i class="fab fa-spotify micon"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-5">
+                <p class="cprg">© Copyright 2021 Javali Proyects
+                </p>
+            </div>
+    </footer>
+
+    <!--FIN FOOTER-->
+
+
+
+
+
+    <!-- Javascript Optional -->
+
+    <!-- Jquery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <!--Javascrip escritorio-->
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>

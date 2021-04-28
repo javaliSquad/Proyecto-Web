@@ -32,6 +32,10 @@ body{
     color: bisque;
 
 }
+.fa-spa{
+    color: bisque;
+    font-size: 35px;
+}
 
 .nav-btn{
     color: bisque;
@@ -41,20 +45,17 @@ body{
     
 }
 
+
 /* FIN NAVBAR */
+/* INICIO CONTENIDO */
+.p-bienv{
 
-/*EFECTOS*/
-
-li:hover{
-    color:aqua ;
-     }
-
-a:visited{
-    color: bisque;
-
-
+    font-size: 20px;;
 }
-/*--FIN EFECTOS--*/
+/* FIN CONTENIDO */
+
+
+
 
 /*FOOTER*/
 footer{
@@ -67,6 +68,7 @@ footer{
 .myul{
 
     font-size: 25px;
+    color: bisque;
 }
 
 
@@ -74,6 +76,11 @@ footer{
 
     color: bisque;
     font-family:'Dancing Script', cursive ;
+}
+
+.f-list{
+    list-style: none;
+    padding: 3px;
 }
 
 /*iconos*/
@@ -91,13 +98,96 @@ footer{
 
 /*FIN FOOTER*/
 
+/*INICIO FORMULARIO*/
+
+.formu{
+    background-color: #fef3f1;
+    border-radius: 20px;
+}
+
+/*FIN FORMULARIO*/
+
+/*BIENVENIDA*/
+
+.bienvenida{
+    background-color:#fef3f1;
+}
+/*FIN BIENVENIDA*/
 
 
+/*EFECTOS*/
 
-/*ACERCA DE*/
+i:hover{
+    color: cornflowerblue;
+}
+a:visited{
+    color: bisque;
+}
 
+a:hover{
+    color: cornflowerblue;
+}
+/*--FIN EFECTOS--*/
 
+/*--INICIO CARROUSEL--*/
+.carousel-caption-seba {
+    position: absolute;
+    right: 70%;
+    bottom: 0px;
+    left: 10%;
+    z-index: 10;
+    padding-top: 85px;
+    padding-bottom: 10%;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    }
+  
+    .carousel-item-seba {
+      position: relative;
+      display: none;
+      float: left;
+      width: 100%;
+      margin-right: -100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      transition: -webkit-transform 1.5s ease-in-out;
+      transition: transform 1.5s ease-in-out;
+      transition: transform 1.5s ease-in-out, -webkit-transform 2s ease-in-out;
+    }
+  
+    .btn-info-seba {
+      color: #fff;
+      background-color: #17a2b8;
+      border-color: #17a2b8;
+    }
+/*--FIN CARROUSEL-*/
 
+/*GALLERY*/
+
+.galery-color{
+
+background-color:#fef3f1;
+}
+
+/*FIN GALLERY*/
+
+/*CARDS*/
+.card-body{
+
+    background-color:#fef3f1;
+}
+
+.card-footer{
+
+    background-color: whitesmoke;
+}
+
+.maca-med{
+
+    background-color:#fff;
+}
+/*FIN CARDS*/
 
 
 
